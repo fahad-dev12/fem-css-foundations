@@ -18,7 +18,9 @@ body {
   color: var(--white);
   font-family: var(--font);
 }
-
+.main{
+  padding: 150px;
+}
 /* Links styling */
 a {
   text-decoration: inherit;
@@ -30,19 +32,16 @@ a {
   grid-template-rows: 1fr;
   grid-template-areas: "logo nav shopping-cart";
   align-items: center;
-  padding: 0 60px ;
+  padding: 0 60px;
 }
-
-
 
 .header_link {
-    font-size: 40px;
-    font-weight: bold;
+  font-size: 40px;
+  font-weight: bold;
 }
-.header img{
-    grid-area: shopping-cart ;
+.header img {
+  grid-area: shopping-cart;
 }
-
 
 .nav {
   display: inline-block;
@@ -59,7 +58,17 @@ a {
   font-size: 20px;
 }
 
-
-p{
-    margin: 0;
+h2, 
+p {
+  margin: 0;
 }
+
+.body-primary {
+  background-color: var(--orange);
+  color: var(--white);
+}
+.body-secondary {
+  background-color: var(--white);
+  color: var(--orange);
+}
+

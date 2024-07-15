@@ -2,14 +2,12 @@
 
 
 /* main styling */
-.main{
-    padding: 150px;
-}
-.main_heading{
+
+.home .main_heading{
 font-size: 99px;
 font-family: interBold;
 }
-.main_sub-heading{
+.home .main_sub-heading{
     font-size: 40px;
 }
 

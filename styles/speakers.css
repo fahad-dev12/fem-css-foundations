@@ -1,2 +1,45 @@
 @import "./base.css";
 
+.speakers .main_title{
+font-size: 98px;
+}
+
+
+
+.shopping-cart-icon-primary g path{
+    fill: var(--orange);    
+}
+.spealer-photo{
+    width: 310px;
+    height:310px;
+    object-fit: cover;
+    margin-bottom: 36px;
+}
+
+.speaker-name{
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+.speaker-company{
+    font-size: 24px;
+    color: black;
+    margin-bottom: 32px;
+}
+
+.company-bio{
+    font-size: 20px;
+    color: black;
+}
+
+.speaker-wrapper{
+    max-width: 460px;
+}
+
+.speakers-wrapper{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(5, 1fr);
+grid-column-gap: 200px;
+grid-row-gap: 120px;
+}
