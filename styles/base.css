@@ -1,22 +1,65 @@
 @font-face {
-    font-family: inter;
-    src: url('../fonts/Inter-Regular.ttf');
+  font-family: inter;
+  src: url("../fonts/Inter-Regular.ttf");
 }
 @font-face {
-    font-family: interBold;
-    src: url('../fonts/Inter-Bold.ttf');
+  font-family: interBold;
+  src: url("../fonts/Inter-Bold.ttf");
 }
 
-:root{
-    --orange : #ff7b54;
-    --white: #ffffff;
-    --font: inter;
+:root {
+  --orange: #ff7b54;
+  --white: #ffffff;
+  --font: inter;
+}
+
+body {
+  background-color: var(--orange);
+  color: var(--white);
+  font-family: var(--font);
 }
 
 /* Links styling */
 a {
-    color: #ffff;
-    text-decoration: none;
-    list-style: none;
-    
+  text-decoration: inherit;
+  color: inherit;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 34px;
+  grid-template-rows: 1fr;
+  grid-template-areas: "logo nav shopping-cart";
+  align-items: center;
+  padding: 0 60px ;
+}
+
+
+
+.header_link {
+    font-size: 40px;
+    font-weight: bold;
+}
+.header img{
+    grid-area: shopping-cart ;
+}
+
+
+.nav {
+  display: inline-block;
+  justify-self: end;
+}
+
+.nav_list {
+  list-style: none;
+  display: flex;
+}
+
+.nav_list-item {
+  margin-right: 36px;
+  font-size: 20px;
+}
+
+
+p{
+    margin: 0;
 }
