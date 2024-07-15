@@ -10,13 +10,7 @@
 :root{
     --orange : #ff7b54;
     --white: #ffffff;
-}
-
-
-body{
-    background-color: var(--orange);
-    color: var(--white);
-    font-family: interBold;
+    --font: inter;
 }
 
 /* Links styling */
