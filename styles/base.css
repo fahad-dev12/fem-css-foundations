@@ -1,0 +1,28 @@
+@font-face {
+    font-family: inter;
+    src: url('../fonts/Inter-Regular.ttf');
+}
+@font-face {
+    font-family: interBold;
+    src: url('../fonts/Inter-Bold.ttf');
+}
+
+:root{
+    --orange : #ff7b54;
+    --white: #ffffff;
+}
+
+
+body{
+    background-color: var(--orange);
+    color: var(--white);
+    font-family: interBold;
+}
+
+/* Links styling */
+a {
+    color: #ffff;
+    text-decoration: none;
+    list-style: none;
+    
+}
