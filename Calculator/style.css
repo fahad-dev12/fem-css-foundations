@@ -1,0 +1,42 @@
+* {
+  font-size: 50px;
+  box-sizing: border-box;
+}
+button {
+  background-color: rgb(163, 150, 150);
+  margin-bottom: 1px;
+}
+button:hover {
+  background-color: rgb(235, 233, 233);
+}
+button:active {
+  background-color: darkgray;
+}
+.operator,
+.number,
+.backspace,
+.clear {
+  font-size: 60px;
+  width: 90px;
+  height: 70px;
+}
+.operator {
+  background-color: orange;
+}
+
+.clear {
+  width: 192px;
+  background-color: darkcyan;
+}
+
+#number0 {
+  width: 295px;
+}
+p {
+  background-color: black;
+  width: 394px;
+  height: 60px;
+  min-height: 60px;
+  color: white;
+  margin: 2px;
+}
